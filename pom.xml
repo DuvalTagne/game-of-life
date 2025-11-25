@@ -41,7 +41,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
                 <configuration>
-                    <skip>true</skip>
+                    <forkedProcessJvm>java8</forkedProcessJvm>
                 </configuration>
                 <executions>
                     <execution>
